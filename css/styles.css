@@ -6974,11 +6974,11 @@ progress {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #4d680F;
+  background-color: #191c1f;
 }
 
 .fondo-primario{
-  background-image: url('../assets/img/Sushi\ San\ \(BG\).png');
+  background-image: url('../assets/img/Sushi-san-bg.png');
   background-size: cover;
   min-height: 800px;
   width: 100%;
@@ -6986,6 +6986,8 @@ progress {
 
 @media (max-width: 425px) {
   .fondo-primario{
+    width: 100%;
+    background-size: cover;
     min-height: fit-content;
   }
 }
